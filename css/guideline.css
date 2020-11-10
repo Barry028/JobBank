@@ -1,0 +1,111 @@
+/* ========================================================================= *\
+   07. Guideline
+\* ========================================================================= */
+body {
+	background: #F1F5F9;
+}
+
+p {
+	color: #b1b6bc;
+}
+
+span {
+	color: #415b76;
+}
+
+pre {
+	background: #3d3d3d;
+	border: 2px solid #eee;
+	color: #52e4ff;
+	padding: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+code {
+	word-break: break-word;
+	line-height: 1.4;
+	font-family: Arial;
+}
+
+table {
+	border: 1px solid #dee2e6;
+	max-width: 100%;
+	margin-bottom: 2rem;
+	table-layout: fixed;
+	width: 100%;
+}
+
+table>tbody>tr>th,
+table>thead>tr>th,
+table>tbody>tr>td {
+	border: 1px solid #dee2e6;
+	padding: .75rem;
+	vertical-align: middle;
+}
+
+table tbody tr:nth-of-type(odd) {
+	background-color: rgba(0, 0, 0, .05);
+}
+
+/*------------------------------------*\
+    text
+\*------------------------------------*/
+.text--normal {
+	font-weight: normal;
+	letter-spacing: .5px;
+}
+
+.nt {
+	color: #ff528d;
+}
+
+.na {
+	color: #52ff6e;
+}
+
+.s {
+	color: #fff
+}
+
+.pre-box-top {
+	border: 2px solid;
+	border-color: #eee #eee transparent;
+}
+
+/*------------------------------------*\
+    Card
+\*------------------------------------*/
+.card {
+	background-color: #fbfbfb;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+.card__body {
+	padding: 16px;
+}
+
+.card__title {
+	font-size: 20px;
+	color: #6772e5;
+	margin-top: 8px;
+	margin-bottom: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.card__para {
+	font-size: 16px;
+	color: #686C71;
+	line-height: 32px;
+	margin-bottom: 16px;
+	height: 64px;
+	overflow: hidden;
+	text-align: justify;
+}
+
+.colorpalette-item {
+	padding-top: 100%;
+}

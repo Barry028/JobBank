@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="arrow" transform="translate(-1215 -960)">
+    <g id="Rectangle_23911" data-name="Rectangle 23911" transform="translate(1215 960)" fill="gray" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+    <g id="next_1_" data-name="next (1)" transform="translate(1235 964.286) rotate(90)">
+      <path id="Chevron_Right_1_" d="M.292,9.286,9.286.3a1.01,1.01,0,1,1,1.43,1.427L2.435,10l8.279,8.277A1.01,1.01,0,1,1,9.285,19.7L.291,10.714A1.019,1.019,0,0,1,.292,9.286Z" transform="translate(0 0)" fill="gray"/>
+    </g>
+  </g>
+</svg>

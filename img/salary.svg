@@ -1,0 +1,15 @@
+<svg id="salary" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Rectangle_22908" data-name="Rectangle 22908" fill="gray" stroke="#808fa5" stroke-width="1" opacity="0">
+    <rect width="20" height="20" stroke="none"/>
+    <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+  </g>
+  <g id="salary-2" data-name="salary" transform="translate(2 2)">
+    <path id="Path_88620" data-name="Path 88620" d="M48,43.69l.571.433V40.531a.286.286,0,0,1,.286-.286,1.43,1.43,0,0,0,1.429-1.429.286.286,0,0,1,.286-.286H58a.286.286,0,0,1,.286.286,1.43,1.43,0,0,0,1.429,1.429.286.286,0,0,1,.286.286v3.592l.571-.433V37.96H48Zm0,0" transform="translate(-46.285 -36.604)" fill="gray"/>
+    <path id="Path_88621" data-name="Path 88621" d="M5.238,146.4l.956.725v-1.45Zm0,0" transform="translate(-5.051 -140.469)" fill="gray"/>
+    <path id="Path_88622" data-name="Path 88622" d="M195.063.784h2.067L196.1,0Zm0,0" transform="translate(-188.096)" fill="gray"/>
+    <path id="Path_88623" data-name="Path 88623" d="M16,182.07l-7.137,5.414a1.434,1.434,0,0,1-1.727,0L0,182.07v8.568a.857.857,0,0,0,.857.857H15.143a.857.857,0,0,0,.857-.857Zm0,0" transform="translate(0 -175.568)" fill="gray"/>
+    <path id="Path_88624" data-name="Path 88624" d="M416,147.122l.956-.725-.956-.725Zm0,0" transform="translate(-401.142 -140.47)" fill="gray"/>
+    <path id="Path_88625" data-name="Path 88625" d="M146.857,117.961a2.857,2.857,0,1,0,2.857,2.857A2.857,2.857,0,0,0,146.857,117.961Zm0,2.571a1.141,1.141,0,0,1,.286,2.245v.326a.286.286,0,0,1-.571,0v-.326a1.143,1.143,0,0,1-.857-1.1.286.286,0,1,1,.571,0,.571.571,0,1,0,.571-.571,1.141,1.141,0,0,1-.286-2.245v-.326a.286.286,0,0,1,.571,0v.326a1.143,1.143,0,0,1,.857,1.1.286.286,0,1,1-.571,0,.571.571,0,1,0-.571.571Zm0,0" transform="translate(-138.857 -113.748)" fill="gray"/>
+    <path id="Path_88626" data-name="Path 88626" d="M88.595,69.961h-6.9A2,2,0,0,1,80,71.652v3.763l4.625,3.508a.859.859,0,0,0,1.036,0l4.625-3.508V71.652A2,2,0,0,1,88.595,69.961Zm-3.451,8a3.429,3.429,0,1,1,3.429-3.429A3.429,3.429,0,0,1,85.143,77.961Zm0,0" transform="translate(-77.143 -67.462)" fill="gray"/>
+  </g>
+</svg>

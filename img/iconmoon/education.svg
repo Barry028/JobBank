@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="education" transform="translate(-7690 135)">
+    <g id="education-2" data-name="education" transform="translate(7690 -135)">
+      <g id="Path_88443" data-name="Path 88443" fill="gray" opacity="0">
+        <path d="M 23.5 23.5 L 0.5 23.5 L 0.5 0.5 L 23.5 0.5 L 23.5 23.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 23 L 23 23 L 23 1 L 1 1 M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+    <g id="college-graduation_1_" data-name="college-graduation (1)" transform="translate(7692 -131)">
+      <g id="Layer_5_59_" transform="translate(0 0)">
+        <g id="Group_82879" data-name="Group 82879">
+          <path id="Path_88615" data-name="Path 88615" d="M56.385,205.968a2.6,2.6,0,0,1-2.567,0L48.007,202.4s-.525-.322-.525.407v3.559c0,1.875,3.411,3.9,7.62,3.9s7.62-2.021,7.62-3.9v-3.76c0-.585-.373-.3-.373-.3Z" transform="translate(-45.102 -193.94)" fill="gray"/>
+          <path id="Path_88616" data-name="Path 88616" d="M19.665,42.276a.538.538,0,0,0,0-1l-8.853-4.427a1.707,1.707,0,0,0-1.624,0L.335,41.28a.538.538,0,0,0,0,1l8.853,5.43a1.707,1.707,0,0,0,1.624,0" transform="translate(0 -36.648)" fill="gray"/>
+          <path id="Path_88617" data-name="Path 88617" d="M357.281,191.882v-6s0-.284-.164-.19a4.9,4.9,0,0,0-.583.362.5.5,0,0,0-.1.38v5.445a.16.16,0,0,1-.1.133,1.036,1.036,0,1,0,1.045,0A.154.154,0,0,1,357.281,191.882Z" transform="translate(-337.982 -178.205)" fill="gray"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

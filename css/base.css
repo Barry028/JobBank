@@ -1,0 +1,393 @@
+/* ========================================================================= *\
+   Job Bank -- Base
+\* ========================================================================= */
+
+/*--    Root    ===================*/
+:root {
+    --bgblue: #2a5493;
+    --bg_grey: #edeeef;
+    --bgwhite: #F5F6FA;
+    --linkblue: #1c84c6;
+    --linkblueHover: #34495E;
+    --darkblue: #31708f;
+    --darkblueHover: #415b76;
+    --primary: #1c84c6;
+    --secondary: #75B9E7;
+    --apply: #4983DB;
+    --positive: #1abc9c;
+    --negative: #ff7f50;
+    --success: #2ed573;
+    --cyan: #17a2b8;
+    --yellow: #fff200;
+    --red: #F57373;
+    --pink: #ff6b81;
+    --dark: #3d3d3d;
+    --grey: #6c757d;
+    --lightgrey: #b1b6bc;
+    --biscay: #34495E;
+    --ForestBlues: #0a3d62;
+    --light: #dfe6e9;
+    --lightblue: #DCE8F1;
+    --whiteblue: #F1F5F9;
+    --white: #fff;
+}
+
+* {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 16px
+}
+
+@media all and (max-width:992px) {
+    html {
+        font-size: 15px
+    }
+
+}
+
+@media all and (max-width:768px) {
+    html {
+        font-size: 14px
+    }
+
+}
+
+@media all and (max-width:480px) {
+    html {
+        font-size: 13px
+    }
+
+}
+
+body {
+    background: #edeeef;
+    color: #3d3d3d;
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, 'Microsoft YaHei', 'Microsoft JhengHei', 微軟正黑體, '微軟正黑體', 'PingFang SC', 'Noto Sans CJK TC', sans-serif;
+    line-height: 1.5;
+    min-height: 100%;
+    text-rendering: optimizeSpeed;
+}
+
+a {
+    text-decoration: none;
+    color: #1c84c6;
+    -webkit-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease
+}
+
+a:hover {
+    color: #34495E;
+    text-decoration: underline;
+}
+
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bolder;
+}
+
+dl,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, 'Microsoft YaHei', 'Microsoft JhengHei', 微軟正黑體, '微軟正黑體', 'PingFang SC', 'Noto Sans CJK TC', sans-serif;
+    outline: none
+}
+
+img,
+svg,
+image {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 2.5rem
+}
+
+h2 {
+    font-size: 2.25rem
+}
+
+h3 {
+    font-size: 2rem
+}
+
+h4 {
+    font-size: 1.75rem
+}
+
+h5 {
+    font-size: 1.5rem
+}
+
+h6 {
+    font-size: 1.125rem
+}
+
+p {
+    font-size: 1rem
+}
+
+span {
+    font-size: .875rem
+}
+
+label {
+    font-size: .9375rem
+}
+
+em {
+    font-style: italic
+}
+
+/* WebKit browsers */
+::-webkit-input-placeholder {
+    color: #b1b6bc;
+}
+
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {
+    color: #b1b6bc;
+}
+
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {
+    color: #b1b6bc;
+    opacity: 1
+}
+
+/* Internet Explorer 10+ */
+:-ms-input-placeholder {
+    color: #b1b6bc !important;
+}
+
+input[type=email],
+input[type=url],
+input[type=search],
+input[type=tel],
+input[type=color],
+input[type=text],
+input[type=password],
+input[type=datetime],
+input[type=datetime-local],
+input[type=date],
+input[type=month],
+input[type=time],
+input[type=week],
+input[type=number],
+textarea {
+    background-color: #fff;
+    border: 1px #CDD8E3 solid;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0px 1px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 1px 0px rgba(0, 0, 0, 0.1);
+    font-size: .875rem;
+    padding: .5rem .75rem;
+    -webkit-transition: border-color .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out;
+    transition: border-color .15s ease-in-out;
+}
+
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=color]:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=date]:focus,
+input[type=month]:focus,
+input[type=time]:focus,
+input[type=week]:focus,
+input[type=number]:focus,
+textarea:focus {
+    background-color: #fff;
+    border-color: #F88663;
+    color: #3d3d3d;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    background-size: .5rem;
+    background: url('../img/arrow-bt.svg') no-repeat right center #fff;
+    border: #CDD8E3 1px solid;
+    border-radius: 2px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .015);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, .015);
+    cursor: pointer;
+    display: inline-block;
+    font-size: .875rem;
+    padding: .5em 2.5rem .5rem 1rem;
+}
+
+option {
+}
+
+/*--    CheckBox    ===================*/
+.checkbox-van-inp {
+    display: none
+}
+
+.checkbox-van-lab {
+    cursor: pointer;
+    margin: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox-van-lab span,
+.checkbox-van-lab a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox-van-lab span {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.checkbox-van-lab a {
+}
+
+.checkbox-van-lab span:first-child {
+    height: 18px;
+    width: 18px;
+    border: 1px solid #9098A9;
+    border-radius: 3px;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    vertical-align: middle;
+}
+
+.checkbox-van-lab span:first-child svg {
+    position: absolute;
+    top: 3px;
+    top: 0\9;/* ie */
+    left: 2px;
+    fill: none;
+    stroke: #FFF;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 16px;
+    stroke-dashoffset: 16px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transition-delay: .1s;
+    -o-transition-delay: .1s;
+    transition-delay: .1s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/* CheckBox For Ie 11 */
+@media all and (-ms-high-contrast:none) {
+    .checkbox-van-lab span:first-child svg {
+        top: 0
+    }
+
+}
+
+.checkbox-van-lab span:first-child:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #277cfd;
+    border-radius: 50%;
+    display: block;
+    opacity: 1;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.checkbox-van-lab span:last-child {
+    padding-left: .25rem;
+}
+
+.checkbox-van-lab:hover span:first-child {
+    border-color: #277cfd;
+}
+
+.checkbox-van-inp:checked+.checkbox-van-lab span:first-child {
+    background: #277cfd;
+    border-color: #277cfd;
+    -webkit-animation: wave .4s ease;
+    animation: wave .4s ease;
+}
+
+.checkbox-van-inp:checked+.checkbox-van-lab span:first-child svg {
+    stroke-dashoffset: 0;
+}
+
+.checkbox-van-inp:checked+.checkbox-van-lab span:first-child:before {
+    opacity: 0;
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-transform: scale(3.5);
+    -ms-transform: scale(3.5);
+    transform: scale(3.5);
+}
+
+@-webkit-keyframes wave {
+    50% {
+        -webkit-transform: scale(.9);
+        transform: scale(.9);
+    }
+
+}
+
+@keyframes wave {
+    50% {
+        -webkit-transform: scale(.9);
+        transform: scale(.9);
+    }
+
+}

@@ -1,0 +1,13 @@
+<svg id="job" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Rectangle_22909" data-name="Rectangle 22909" fill="gray" stroke="#808fa5" stroke-width="1" opacity="0">
+    <rect width="20" height="20" stroke="none"/>
+    <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+  </g>
+  <g id="briefcase" transform="translate(2 -33.546)">
+    <g id="Group_82881" data-name="Group 82881" transform="translate(0 36.546)">
+      <path id="Path_88618" data-name="Path 88618" d="M10,293.788a.58.58,0,0,1-.572.572H6.571A.58.58,0,0,1,6,293.788V292.36H0v4.286a1.375,1.375,0,0,0,.42,1.009,1.376,1.376,0,0,0,1.009.42H14.571A1.433,1.433,0,0,0,16,296.646V292.36H10v1.428Z" transform="translate(0 -284.36)" fill="gray"/>
+      <rect id="Rectangle_23481" data-name="Rectangle 23481" width="2.286" height="1.143" transform="translate(6.857 8)" fill="gray"/>
+      <path id="Path_88619" data-name="Path 88619" d="M15.58,39.251a1.375,1.375,0,0,0-1.009-.42H11.429V37.4a.854.854,0,0,0-.857-.857H5.429a.854.854,0,0,0-.857.857v1.429H1.429a1.376,1.376,0,0,0-1.009.42A1.375,1.375,0,0,0,0,40.26v3.429H16V40.26A1.375,1.375,0,0,0,15.58,39.251Zm-5.295-.42H5.714V37.689h4.571Z" transform="translate(0 -36.546)" fill="gray"/>
+    </g>
+  </g>
+</svg>

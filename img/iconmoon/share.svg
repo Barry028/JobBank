@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="share" transform="translate(-8725 187)">
+    <g id="Rectangle_23913" data-name="Rectangle 23913" transform="translate(8725 -187)" fill="gray" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="share-2" data-name="share" d="M15.363,5.273a2.637,2.637,0,1,0-2.637-2.637,2.6,2.6,0,0,0,.128.768L6.633,6.794a3.691,3.691,0,1,0,0,4.411l6.221,3.39a2.6,2.6,0,0,0-.128.768,2.669,2.669,0,1,0,.633-1.694L7.14,10.281a3.5,3.5,0,0,0,0-2.561L13.36,4.33a2.62,2.62,0,0,0,2,.943Zm0,0" transform="translate(8728 -184)" fill="gray"/>
+  </g>
+</svg>
